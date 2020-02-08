@@ -1,18 +1,18 @@
 node{
-    stage("satage1"){
-      git  'https://github.com/akarayol03/terraform-iaac-eks'
+    stage("stage1"){
+      git  'https://github.com/akarayol03/terraform-iaac-eks.git'
 
     }
 
-    stage("satage2"){
-       echo "Hello" 
+    stage("stage2"){
+       sh "terraform version"
     }
 
-    stage("satage3"){
+    stage("stage3"){
         echo "Hello"
     }
 
-    stage("satage4"){
+    stage("stage4"){
         echo "Hello"
     }
 }

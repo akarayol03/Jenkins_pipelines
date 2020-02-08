@@ -7,7 +7,8 @@ node {
             'nagiosxi', 
             'gitlab', 
             'nexus', 
-            'vault'
+            'vault',
+            'artemisv1'
             ], description: 'What tool would you like to build?', name: 'TOOL_TO_PROVISION'),
         text(defaultValue: 'dummy1@gmail.com', description: 'Please provide email(s) for notifications. Use , for multiple emails', name: 'EMAIL_TO_SEND'),
         choice(choices: [

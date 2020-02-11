@@ -6,7 +6,7 @@ pipeline {
         echo 'Hello'
         echo 'step2'
         echo 'stage3'
-        sh 'eco "Hello"'
+        sh 'echo "Hello"'
       }
     }
 
